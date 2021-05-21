@@ -2,9 +2,11 @@ package practiceProblems;
 
 public class PrimeOrNot {
 	public static void main(String[] args) {
-		int no = -4;
+		int no = 5;
 		
-		if (no < 0) no *= -1;
+		if (no < 0) {
+			no *= -1;
+		}
 		
 		Boolean isPrime = true;
 		
